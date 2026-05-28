@@ -4,11 +4,42 @@ Persistent Cart Sync For Shopify Stores
 
 <div align="center"><img src="https://files.catbox.moe/eon4ms.jpg" width="140"/><br><br>
 
-"Shopify" (https://img.shields.io/badge/Shopify-App-96bf48?style=for-the-badge&logo=shopify)
-"Realtime" (https://img.shields.io/badge/Realtime-Sync-blueviolet?style=for-the-badge)
-"Cloud" (https://img.shields.io/badge/Cloud-Powered-00c7ff?style=for-the-badge)
-"API" (https://img.shields.io/badge/Official-Shopify_APIs-blue?style=for-the-badge)
-"Status" (https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+<div align="center">
+
+# ⚡ CartSync
+## Persistent Cart Sync For Shopify
+
+<br>
+
+<a href="https://apps.shopify.com/cartsync-persistent-cart">
+<img src="https://img.shields.io/badge/🛍️_Install_on_Shopify-18181B?style=for-the-badge&logo=shopify&logoColor=95BF47&labelColor=000000">
+</a>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/⚡_Real_Time_Sync-111827?style=for-the-badge&color=3B82F6">
+
+<img src="https://img.shields.io/badge/🔄_Cross_Device_Restore-111827?style=for-the-badge&color=8B5CF6">
+
+<img src="https://img.shields.io/badge/☁️_Cloud_Powered-111827?style=for-the-badge&color=06B6D4">
+
+<img src="https://img.shields.io/badge/📊_Analytics_Engine-111827?style=for-the-badge&color=22C55E">
+
+<img src="https://img.shields.io/badge/🛒_Persistent_Carts-111827?style=for-the-badge&color=EC4899">
+
+<br><br>
+
+<img src="https://img.shields.io/github/stars/V-Dev-arch/SPONSOR-FOR-CARTSYNC-SHOPIFY?style=for-the-badge&color=facc15">
+
+<img src="https://img.shields.io/github/forks/V-Dev-arch/SPONSOR-FOR-CARTSYNC-SHOPIFY?style=for-the-badge&color=38bdf8">
+
+<img src="https://img.shields.io/github/repo-size/V-Dev-arch/SPONSOR-FOR-CARTSYNC-SHOPIFY?style=for-the-badge&color=a78bfa">
+
+<br><br>
+
+### 🚀 Save, Sync & Restore Customer Carts Across Every Device
+
+</div>
 
 🚀 Save, Sync & Restore Customer Carts Across Every Device
 
