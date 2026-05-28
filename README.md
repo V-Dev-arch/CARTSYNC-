@@ -348,14 +348,6 @@ Shopify App Store
 
 ---
 
-📸 Screenshots
-
-Dashboard Preview
-
-<p align="center">
-<img src="https://files.catbox.moe/eon4ms.jpg" width="260"/>
-</p>---
-
 🌍 Official Links
 
 Shopify App
