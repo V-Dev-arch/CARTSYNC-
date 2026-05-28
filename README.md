@@ -422,7 +422,7 @@ and modern Shopify UX in mind.
 
 ⚡ Developed By
 
-VARINANGER
+rishdev, ecom
 
 ---
 
