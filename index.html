@@ -84,6 +84,234 @@
     }
 
     .hero {
+      <section class="stats-strip">
+
+  <div class="stat-box">
+    <h2>99.98%</h2>
+    <p>Sync Accuracy</p>
+  </div>
+
+  <div class="stat-box">
+    <h2>18K+</h2>
+    <p>Recovered Carts</p>
+  </div>
+
+  <div class="stat-box">
+    <h2>4.2M</h2>
+    <p>Items Synced</p>
+  </div>
+
+  <div class="stat-box">
+    <h2>24/7</h2>
+    <p>Cloud Processing</p>
+  </div>
+
+</section>
+      <section class="analytics">
+
+  <h2 class="section-title">
+    Live <span>Analytics</span>
+  </h2>
+
+  <div class="analytics-card">
+
+    <div class="analytics-top">
+
+      <div class="analytics-mini">
+        <h3>18.2K</h3>
+        <p>Cart Saves</p>
+      </div>
+
+      <div class="analytics-mini">
+        <h3>11.4K</h3>
+        <p>Restores</p>
+      </div>
+
+      <div class="analytics-mini">
+        <h3>$42K</h3>
+        <p>Recovered Revenue</p>
+      </div>
+
+    </div>
+
+    <div class="chart-bars">
+      <div class="bar" style="height:40%"></div>
+      <div class="bar" style="height:70%"></div>
+      <div class="bar" style="height:55%"></div>
+      <div class="bar" style="height:90%"></div>
+      <div class="bar" style="height:100%"></div>
+      <div class="bar" style="height:75%"></div>
+    </div>
+
+  </div>
+
+</section>
+      <section class="automation-section">
+
+<h2 class="section-title">
+Smart <span>Automations</span>
+</h2>
+
+<div class="feature-grid">
+
+<div class="feature-card">
+<h3>Price Drop Alerts</h3>
+<p>
+Automatically notify customers when saved cart items drop in price.
+</p>
+</div>
+
+<div class="feature-card">
+<h3>Back In Stock</h3>
+<p>
+Recover lost sales instantly when unavailable items return.
+</p>
+</div>
+
+<div class="feature-card">
+<h3>Low Inventory Alerts</h3>
+<p>
+Create urgency when products are nearly sold out.
+</p>
+</div>
+
+<div class="feature-card">
+<h3>Idle Cart Recovery</h3>
+<p>
+Re-engage customers who abandoned synced carts.
+</p>
+</div>
+
+</div>
+</section>
+      <section class="integrations">
+
+<h2 class="section-title">
+Powerful <span>Integrations</span>
+</h2>
+
+<div class="feature-grid">
+
+<div class="integration-card">
+<span class="status active">Connected</span>
+<h3>Klaviyo</h3>
+<p>
+Sync events and automate branded recovery flows instantly.
+</p>
+</div>
+
+<div class="integration-card">
+<span class="status active">Ready</span>
+<h3>SMTP Email</h3>
+<p>
+Send transactional recovery emails using your SMTP provider.
+</p>
+</div>
+
+<div class="integration-card">
+<span class="status active">Official</span>
+<h3>Shopify APIs</h3>
+<p>
+Built using Shopify official APIs and App Proxy architecture.
+</p>
+</div>
+
+</div>
+
+</section>
+      <section class="funnel-section">
+
+<h2 class="section-title">
+Conversion <span>Funnel</span>
+</h2>
+
+<div class="funnel-box">
+
+<div class="funnel-step">
+<h2>18K</h2>
+<p>Carts Saved</p>
+</div>
+
+<div class="arrow">→</div>
+
+<div class="funnel-step">
+<h2>11K</h2>
+<p>Recovered</p>
+</div>
+
+<div class="arrow">→</div>
+
+<div class="funnel-step">
+<h2>4.2K</h2>
+<p>Orders</p>
+</div>
+
+</div>
+
+</section>
+      <section class="testimonials">
+
+<h2 class="section-title">
+Merchant <span>Reviews</span>
+</h2>
+
+<div class="feature-grid">
+
+<div class="testimonial-card">
+<p>
+“CartSync recovered thousands in lost revenue for our store.”
+</p>
+<h4>— Shopify Merchant</h4>
+</div>
+
+<div class="testimonial-card">
+<p>
+“The setup was instant and worked with our cart drawer automatically.”
+</p>
+<h4>— Fashion Store Owner</h4>
+</div>
+
+<div class="testimonial-card">
+<p>
+“Very smooth syncing experience across mobile and desktop.”
+</p>
+<h4>— Electronics Brand</h4>
+</div>
+
+</div>
+
+</section>
+      <section class="faq-section">
+
+<h2 class="section-title">
+Frequently Asked <span>Questions</span>
+</h2>
+
+<div class="faq-box">
+
+<div class="faq-item">
+<h3>Does CartSync modify my theme?</h3>
+<p>No. CartSync works without manual theme editing.</p>
+</div>
+
+<div class="faq-item">
+<h3>Does it support cart drawers?</h3>
+<p>Yes. CartSync automatically detects most Shopify cart systems.</p>
+</div>
+
+<div class="faq-item">
+<h3>Will it slow down my store?</h3>
+<p>No. CartSync is optimized for lightweight real-time syncing.</p>
+</div>
+
+<div class="faq-item">
+<h3>Does it support Shopify Plus?</h3>
+<p>Yes. Fully compatible with Shopify Plus stores.</p>
+</div>
+
+</div>
+
+</section>
       min-height: 100vh;
       display: flex;
       align-items: center;
@@ -318,6 +546,187 @@
         opacity: 1;
         transform: translateY(0);
       }
+    }
+    .stats-strip{
+  padding:40px 8%;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:24px;
+}
+
+.stat-box,
+.analytics-card,
+.integration-card,
+.funnel-box,
+.testimonial-card,
+.faq-box{
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.06);
+  backdrop-filter:blur(14px);
+  border-radius:24px;
+}
+
+.stat-box{
+  padding:32px;
+  text-align:center;
+}
+
+.stat-box h2{
+  color:var(--accent);
+  font-size:38px;
+}
+
+.stat-box p{
+  margin-top:10px;
+  color:#94a3b8;
+}
+
+.analytics,
+.automation-section,
+.integrations,
+.funnel-section,
+.testimonials,
+.faq-section{
+  padding:120px 8%;
+}
+
+.analytics-card{
+  padding:40px;
+}
+
+.analytics-top{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+  margin-bottom:40px;
+}
+
+.analytics-mini{
+  background:rgba(255,255,255,0.04);
+  border-radius:18px;
+  padding:22px;
+}
+
+.analytics-mini h3{
+  color:var(--accent);
+  font-size:30px;
+}
+
+.analytics-mini p{
+  margin-top:10px;
+  color:#94a3b8;
+}
+
+.chart-bars{
+  display:flex;
+  align-items:flex-end;
+  gap:18px;
+  height:220px;
+}
+
+.bar{
+  flex:1;
+  border-radius:14px 14px 0 0;
+  background:linear-gradient(to top,var(--accent),transparent);
+  animation:grow 1.2s ease;
+}
+
+@keyframes grow{
+  from{
+    height:0;
+  }
+}
+
+.integration-card{
+  position:relative;
+  padding:35px;
+}
+
+.status{
+  position:absolute;
+  top:20px;
+  right:20px;
+  padding:6px 14px;
+  border-radius:999px;
+  background:rgba(59,130,246,0.15);
+  color:var(--accent);
+  font-size:13px;
+}
+
+.funnel-box{
+  padding:40px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:28px;
+  flex-wrap:wrap;
+}
+
+.funnel-step{
+  text-align:center;
+}
+
+.funnel-step h2{
+  font-size:44px;
+  color:var(--accent);
+}
+
+.funnel-step p{
+  margin-top:10px;
+  color:#94a3b8;
+}
+
+.arrow{
+  font-size:42px;
+  color:var(--accent);
+}
+
+.testimonial-card{
+  padding:35px;
+}
+
+.testimonial-card p{
+  color:#cbd5e1;
+  line-height:1.8;
+}
+
+.testimonial-card h4{
+  margin-top:18px;
+  color:var(--accent);
+}
+
+.faq-box{
+  padding:40px;
+}
+
+.faq-item{
+  padding:22px 0;
+  border-bottom:1px solid rgba(255,255,255,0.06);
+}
+
+.faq-item:last-child{
+  border-bottom:none;
+}
+
+.faq-item h3{
+  margin-bottom:10px;
+}
+
+.faq-item p{
+  color:#94a3b8;
+  line-height:1.7;
+}
+
+.live-badge{
+  position:fixed;
+  bottom:25px;
+  right:25px;
+  background:rgba(255,255,255,0.08);
+  backdrop-filter:blur(12px);
+  padding:14px 18px;
+  border-radius:16px;
+  border:1px solid rgba(255,255,255,0.08);
+  z-index:999;
     }
 
     @media(max-width: 900px) {
@@ -576,6 +985,10 @@
       .setProperty('--accent', randomColor);
 
   </script>
-
+  
+<div class="live-badge">
+🟢 Live Sync Active
+</div>
+  
 </body>
 </html>
