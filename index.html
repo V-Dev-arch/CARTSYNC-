@@ -515,6 +515,45 @@
         display: none;
       }
     }
+.connect-section{
+    text-align:center;
+    margin:30px 0;
+}
+
+.connect-section h3{
+    margin-bottom:15px;
+}
+
+.social-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:14px 22px;
+    margin:8px;
+    border-radius:16px;
+    text-decoration:none;
+    color:#fff;
+    font-weight:600;
+    transition:all .3s ease;
+    box-shadow:0 6px 18px rgba(0,0,0,.25);
+}
+
+.social-btn:hover{
+    transform:translateY(-3px);
+}
+
+.instagram{
+    background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af,#515bd4);
+}
+
+.reddit{
+    background:#ff4500;
+}
+
+.social-btn svg{
+    flex-shrink:0;
+}
+    
   </style>
 </head>
 
@@ -990,6 +1029,25 @@ Frequently Asked <span>Questions</span>
 <div class="live-badge">
 🟢 Live Sync Active
 </div>
+
+  <div class="connect-section">
+    <h3>Connect</h3>
+
+    <a href="https://www.instagram.com/cartsync9" target="_blank" class="social-btn instagram">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+            <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2z"/>
+            <path d="M12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10z"/>
+        </svg>
+        <span>@cartsync9</span>
+    </a>
+
+    <a href="https://www.reddit.com/user/ElkSquare6755/" target="_blank" class="social-btn reddit">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+            <path d="M12 19c3.3 0 6-2.2 6-5s-2.7-5-6-5-6 2.2-6 5 2.7 5 6 5z"/>
+        </svg>
+        <span>u/ElkSquare6755</span>
+    </a>
+  </div>
   
 </body>
 </html>
