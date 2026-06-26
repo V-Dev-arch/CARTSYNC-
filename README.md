@@ -364,7 +364,7 @@ https://github.com/V-Dev-arch/SPONSOR-FOR-CARTSYNC-SHOPIFY
 
 Official Website 
 
-https://v-dev-arch.github.io/CARTSYNC-/
+https://cartsync.site.je
 
 ---
 
