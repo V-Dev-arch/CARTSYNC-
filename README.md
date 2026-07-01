@@ -2,7 +2,7 @@
 
 Persistent Cart Sync For Shopify Stores
 
-<div align="center"><img src="https://files.catbox.moe/eon4ms.jpg" width="140"/><br><br>
+<div align="center"><img src="https://cartsync.site.je/favicon.png" width="140"/><br><br>
 
 <div align="center">
 
