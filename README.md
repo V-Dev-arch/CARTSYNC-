@@ -358,7 +358,7 @@ https://apps.shopify.com/cartsync-persistent-cart
 
 GitHub Repository
 
-https://github.com/V-Dev-arch/-CARTSYNC-/
+https://github.com/V-Dev-arch/CARTSYNC-/
 
 ---
 
